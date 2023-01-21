@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Inter } from "@next/font/google";
 import SideBar from "@/components/SideBar";
 import TopBar from "@/components/TopBar";
@@ -12,6 +11,7 @@ export default function Home() {
     // </h1>
     <div className="flex">
       <SideBar />
+      <TopBar />
     </div>
   );
 }
