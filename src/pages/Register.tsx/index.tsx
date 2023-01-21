@@ -11,25 +11,25 @@ const Register = () => {
           </div>
           <form>
             <input
-              className="form-control block w-full px-4 py-2 text-xl font-normal text-slate-700 bg-white bg-clip-padding border border-solid border-slate-300 rounded transition ease-in-out m-0 focus:text-slate-700 focus:bg-white focus:border-blue-600 focus:outline-none mb-6"
+              className="form-control block w-full px-4 py-2 text-xl font-normal text-slate-700 bg-white bg-clip-padding border border-solid border-slate-700 rounded transition ease-in-out m-0 focus:text-slate-700 focus:bg-white focus:border-violet-700 focus:outline-2 mb-6"
               type="text"
               placeholder="Username"
               name="username"
             />
             <input
-              className="form-control block w-full px-4 py-2 text-xl font-normal text-slate-700 bg-white bg-clip-padding border border-solid border-slate-300 rounded transition ease-in-out m-0 focus:text-slate-700 focus:bg-white focus:border-blue-600 focus:outline-none mb-6"
+              className="form-control block w-full px-4 py-2 text-xl font-normal text-slate-700 bg-white bg-clip-padding border border-solid border-slate-700 rounded transition ease-in-out m-0 focus:text-slate-700 focus:bg-white focus:border-violet-700 focus:outline-2 mb-6"
               type="text"
               placeholder="Email"
               name="email"
             />
             <input
-              className="form-control block w-full px-4 py-2 text-xl font-normal text-slate-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none mb-3"
+              className="form-control block w-full px-4 py-2 text-xl font-normal text-slate-700 bg-white bg-clip-padding border border-solid border-slate-700 rounded transition ease-in-out m-0 focus:text-slate-700 focus:bg-white focus:border-violet-700 focus:outline-2 mb-3"
               type="text"
               placeholder="Password"
               name="password"
             />
             <input
-              className="form-control block w-full px-4 py-2 text-xl font-normal text-slate-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none mb-6"
+              className="form-control block w-full px-4 py-2 text-xl font-normal text-slate-700 bg-white bg-clip-padding border border-solid border-slate-700 rounded transition ease-in-out m-0 focus:text-slate-700 focus:bg-white focus:border-violet-700 focus:outline-2 mb-6"
               type="text"
               placeholder="Confirm Password"
               name="Confirm password"
