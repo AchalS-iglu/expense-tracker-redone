@@ -4,7 +4,7 @@
 
 @layer components {
   .sidebar-icon {
-    @apply relative flex items-center justify-center h-12 w-12 mt-2 mb-2 mx-auto bg-slate-700 text-violet-200 hover:bg-violet-200 hover:text-slate-700 rounded-3xl hover:rounded-md transition-all duration-100 ease-linear cursor-pointer;
+    @apply relative flex items-center justify-center h-12 w-12 mt-2 mb-2 mx-auto bg-slate-700 text-slate-300 hover:bg-slate-300 hover:text-slate-700 rounded-3xl hover:rounded-md transition-all duration-100 ease-linear cursor-pointer;
   }
   .sidebar-tooltip {
     @apply absolute w-auto p-2 m-2 min-w-max left-14 rounded-md text-white bg-slate-800 text-xs font-bold transition-all duration-100 scale-0 origin-left;
