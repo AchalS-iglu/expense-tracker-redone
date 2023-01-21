@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .sidebar-icon {
+    @apply relative flex items-center justify-center h-12 w-12 mt-2 mb-2 mx-auto bg-slate-700 text-violet-200 hover:bg-violet-200 hover:text-slate-700 rounded-3xl hover:rounded-md transition-all duration-100 ease-linear cursor-pointer;
+  }
+}
+/* 
+.sidebar-icon {
+  --hb-color: #ddd6fe;
+}
+
+.sidebar-icon:hover {
+  --hb-color: #334155;
+}
+
+.button-hb .line {
+  animation: to-open-hb 1s;
+}
+
+.button-hb[aria-expanded="false"] .line {
+  animation: to-close-hb 1s;
+}
+
+.button-hb .line.top {
+  --rotation: -45deg;
+  transform-origin: 65px 45px;
+}
+.button-hb .line.bottom {
+  --rotation: 45deg;
+  transform-origin: 60px 55px;
+}
+
+@keyframes to-close-hb {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  40% {
+    stroke-dashoffset: 79.9;
+  }
+  60% {
+    stroke-dashoffset: 79.9;
+    rotate: var(--rotate);
+  }
+  100% {
+    stroke-dashoffset: 0;
+    rotate: var(--rotate);
+  }
+}
+
+@keyframes to-close-hb {
+  0% {
+    stroke-dashoffset: 0;
+    rotate: var(--rotate);
+  }
+  40% {
+    stroke-dashoffset: 79.9;
+    rotate: var(--rotate);
+  }
+  60% {
+    stroke-dashoffset: 79.9;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+} */
